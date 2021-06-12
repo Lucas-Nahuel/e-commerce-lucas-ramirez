@@ -6,6 +6,13 @@
   text-align: center;
 }
 
+.ul-props{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .navbar{
   width: 100%;
   background-color: #282c34;

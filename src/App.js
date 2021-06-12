@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
 import './bootstrap.min.css';
+import Li from './components/itemlist/itemlist';
 
 
 class App extends Component {
@@ -20,6 +21,11 @@ class App extends Component {
       <div className="App">
       <h1>my proyect!</h1>
       </div>
+      <ul className="ul-props">
+        <Li title={'Marca 1'}/>
+        <Li title={'Marca 2'}/>
+        <Li title={'Marca 3'}/>
+      </ul>
     </Fragment>
   );
 }
